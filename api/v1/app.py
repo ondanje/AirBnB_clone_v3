@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-Module that provides setup for flask application.
-Creates an instance on localhost port 5500.
+Module that provides setup for flask application. Creates an instance on localhost port 5500.
 Also contains an app teardown context that will close the database 
 """
 from flask import Flask, render_template, jsonify
