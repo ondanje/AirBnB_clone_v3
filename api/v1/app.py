@@ -1,11 +1,10 @@
 #!/usr/bin/python3
-"""
-Module that provides setup for flask application
+"""Module that provides setup for flask application
 """
 from flask import Flask, render_template, jsonify
 from models import storage
 from api.v1.views import app_views
-import os
+from os import getenv
 
 app = Flask(__name__)
 app.register_blueprint(app_views, url_prefix="/api/v1")
