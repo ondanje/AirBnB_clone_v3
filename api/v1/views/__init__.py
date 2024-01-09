@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Module that instanstiates instance
+"""
 from flask import Blueprint
 
 from api.v1.views.index import *

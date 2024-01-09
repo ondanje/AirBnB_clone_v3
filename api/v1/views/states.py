@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Module for states
+"""
 from flask import jsonify, request, abort
 from api.v1.views import app_views
 from models import storage
@@ -25,9 +28,7 @@ def get_state(state_id):
     return jsonify(state.to_dict())
 
 
-@app_views.route(
-        "/states/<state_id>", methods=["DELETE"], strict_slashes=False
-        )
+@app_views.route("/states/<state_id>", methods=["DELETE"], strict_slashes=False)
 def delete_state(state_id):
     """
     Deletes a state based on the id
