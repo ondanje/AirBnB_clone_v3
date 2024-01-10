@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module for amenities
+ A Script to handle routes relating to amenities objects
 """
 from flask import jsonify, request, abort
 from api.v1.views import app_views

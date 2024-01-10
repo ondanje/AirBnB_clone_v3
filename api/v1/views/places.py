@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module for places
+A Script to handle routes relating to places objects
 """
 from flask import jsonify, request, abort
 from api.v1.views import app_views

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module that instanstiates instance
+Module that instanstiates instance of various objects
 """
 from flask import Blueprint
 

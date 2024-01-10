@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module for places reviews
+A Script to handle routes relating to places_reviews objects
 """
 from flask import jsonify, request, abort
 from api.v1.views import app_views
