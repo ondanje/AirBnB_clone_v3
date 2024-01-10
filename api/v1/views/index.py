@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-A Script to handle routes relating to index file 
+A Script to handle routes relating to index file
 """
 from flask import jsonify
 from api.v1.views import app_views
