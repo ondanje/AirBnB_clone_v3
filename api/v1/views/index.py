@@ -23,4 +23,6 @@ def get_stats():
         "states": storage.count("State"),
         "users": storage.count("User"),
     }
-    return jsonify(stats)
+    formatted_stats = {f"{key}: {value}" for key, value in stats.items()}
+
+    return jsonify(formatted_stats)
